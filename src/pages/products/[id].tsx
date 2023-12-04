@@ -1,8 +1,7 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import {
+import fetchProducts, {
   ProductType,
   fetchProduct,
-  fetchProducts,
 } from "../common/services/products";
 import { ReactNode } from "react";
 import Head from "next/head";

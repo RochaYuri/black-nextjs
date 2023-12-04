@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "./common/components/Header";
 import { Container } from "reactstrap";
 import ProductsList from "./common/components/ProductsList";
-import { ProductType, fetchProducts } from "./common/services/products";
+import fetchProducts, { ProductType } from "./common/services/products";
 import { ReactNode } from "react";
 
 export const getStaticProps: GetStaticProps = async () => {
